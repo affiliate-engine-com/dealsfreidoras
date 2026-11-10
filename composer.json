@@ -1,0 +1,14 @@
+{
+    "name": "affiliate-engine-com/dealsfreidoras",
+    "description": "Freidoras de aire affiliate site (CodeIgniter static pages)",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "codeigniter4/framework": "^4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
