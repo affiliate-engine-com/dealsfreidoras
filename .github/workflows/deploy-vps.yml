@@ -64,14 +64,8 @@ jobs:
                   - "traefik.http.routers.${{ steps.config.outputs.slug }}.tls.certresolver=letsencrypt"
                   - "traefik.http.services.${{ steps.config.outputs.slug }}.loadbalancer.server.port=80"
                 restart: unless-stopped
-                networks:
-                  - default
-                  - traefik
-            networks:
-              traefik:
-                external: true
-                name: traefik_default
             EOF
             cd /opt/sites/${{ steps.config.outputs.slug }}
             docker compose pull
-            docker compose up -d --force-recreate
+            docker compose up -d
+            docker network connect ${{ steps.config.outputs.slug }}_default traefik-traefik-1 || true
