@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 <section class="hero">
-    <h1>Mejor Freidora de Aire 2026</h1>
+    <h1>Deals a tu rollo – Freidoras de aire</h1>
     <p>Reviews, comparativas y guías de compra de las freidoras de aire más vendidas en Amazon.es.</p>
     <a href="/mejor-freidora-de-aire" class="btn">Ver las mejores</a>
 </section>
