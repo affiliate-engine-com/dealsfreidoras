@@ -12,8 +12,16 @@ $routes->get('review/(:segment)', 'Pages::review/$1');
 $routes->get('vs/(:segment)', 'Pages::vs/$1');
 $routes->get('sobre-nosotros', 'Pages::sobreNosotros');
 
-// Páginas legales
-$routes->get('aviso-legal', 'Pages::avisoLegal');
-$routes->get('privacidad', 'Pages::privacidad');
-$routes->get('cookies', 'Pages::cookies');
-$routes->get('afiliados', 'Pages::afiliados');
+// Páginas legales centralizadas en dealsatr.com
+$routes->get('aviso-legal', static function () {
+    return redirect()->to('https://dealsatr.com/aviso-legal');
+});
+$routes->get('privacidad', static function () {
+    return redirect()->to('https://dealsatr.com/privacidad');
+});
+$routes->get('cookies', static function () {
+    return redirect()->to('https://dealsatr.com/cookies');
+});
+$routes->get('afiliados', static function () {
+    return redirect()->to('https://dealsatr.com/afiliados');
+});
