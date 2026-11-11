@@ -1,0 +1,331 @@
+/* ============================================
+   Clean Authority — Affiliate Site CSS
+   Paleta:
+   - Fondo: #FFFFFF
+   - Texto: #1A1A1A / #212529
+   - Links / CTAs: #0D6EFD / #0E6CCB
+   - Badges: #AF2E22 (rojo), #538233 (verde), #0A4B7A (azul oscuro)
+   ============================================ */
+
+:root {
+  --bg: #FFFFFF;
+  --text: #1A1A1A;
+  --text-muted: #4A5568;
+  --text-dark: #212529;
+  --link: #0D6EFD;
+  --link-hover: #0E6CCB;
+  --cta: #0D6EFD;
+  --cta-hover: #0B5ED7;
+  --badge-red: #AF2E22;
+  --badge-green: #538233;
+  --badge-blue: #0A4B7A;
+  --border: #E5E7EB;
+  --card-bg: #FAFBFC;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+  --radius: 8px;
+  --font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* ---------- Layout ---------- */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+header,
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+/* ---------- Typography ---------- */
+h1, h2, h3, h4 {
+  color: var(--text-dark);
+  line-height: 1.25;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h1 { font-size: 2rem; font-weight: 700; }
+h2 { font-size: 1.5rem; font-weight: 650; }
+h3 { font-size: 1.25rem; font-weight: 600; }
+
+p {
+  margin: 0.75rem 0;
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* ---------- Header / Nav ---------- */
+header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  display: block;
+  height: 48px;
+  width: auto;
+}
+
+header nav a {
+  margin-right: 1.25rem;
+  font-weight: 500;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+/* ---------- Product / Review Cards ---------- */
+.product,
+.review-card,
+.comparison-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+  box-shadow: var(--shadow);
+}
+
+.product h2,
+.review-card h2 {
+  margin-top: 0;
+}
+
+/* ---------- Affiliate Disclosure ---------- */
+.affiliate-disclosure {
+  background: #F8F9FA;
+  border-left: 3px solid var(--link);
+  padding: 0.75rem 1rem;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.9rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.affiliate-disclosure p {
+  margin: 0;
+}
+
+/* ---------- CTAs ---------- */
+.cta,
+a.cta,
+button.cta,
+.btn {
+  display: inline-block;
+  background: var(--cta);
+  color: #fff !important;
+  padding: 0.65rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.cta:hover,
+a.cta:hover,
+button.cta:hover,
+.btn:hover {
+  background: var(--cta-hover);
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.cta-secondary {
+  background: transparent;
+  color: var(--link) !important;
+  border: 1px solid var(--link);
+}
+
+.cta-secondary:hover {
+  background: #F0F7FF;
+}
+
+/* ---------- Badges ---------- */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.badge-red    { background: var(--badge-red); }
+.badge-green  { background: var(--badge-green); }
+.badge-blue   { background: var(--badge-blue); }
+.badge-best   { background: var(--badge-green); }
+.badge-choice { background: var(--badge-blue); }
+.badge-deal   { background: var(--badge-red); }
+
+/* ---------- Comparison / Score tables ---------- */
+.comparison-table,
+table.scores {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.comparison-table th,
+.comparison-table td,
+table.scores th,
+table.scores td {
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.comparison-table th,
+table.scores th {
+  background: #F8F9FA;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.score-bar {
+  height: 8px;
+  background: #E9ECEF;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.25rem;
+}
+
+.score-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--link);
+}
+
+/* ---------- Cookie Banner ---------- */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -2px 10px rgba(0,0,0,.08);
+  z-index: 1000;
+  padding: 1rem 1.25rem;
+}
+
+.cookie-banner-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.cookie-banner p {
+  margin: 0;
+  flex: 1;
+  min-width: 250px;
+  font-size: 0.95rem;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .cookie-banner-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cookie-banner-actions {
+    justify-content: stretch;
+  }
+  .cookie-banner-actions .cta {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+/* ---------- Utility ---------- */
+.muted { color: var(--text-muted); }
+.text-center { text-align: center; }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mb-2 { margin-bottom: 1rem; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem 1rem 2rem;
+  }
+
+  h1 { font-size: 1.65rem; }
+
+  .product,
+  .review-card {
+    padding: 1rem;
+  }
+
+  .cta {
+    display: block;
+    text-align: center;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
