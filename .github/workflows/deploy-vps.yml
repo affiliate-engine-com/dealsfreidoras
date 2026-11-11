@@ -68,3 +68,5 @@ jobs:
             cd /opt/sites/${{ steps.config.outputs.slug }}
             docker compose pull
             docker compose up -d
+            docker network connect traefik_default dealsfreidoras-web-1 || true
+            docker restart traefik-traefik-1
