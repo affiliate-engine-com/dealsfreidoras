@@ -1,0 +1,20 @@
+name: Site Debug
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: SSH debug
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: 161.22.47.170
+          username: root
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: |
+            echo "===== CONTAINER LOGS ====="
+            docker logs --tail 50 dealsfreidoras-web-1 2>&1 || true
+            echo "===== PHP ERRORS ====="
+            docker exec dealsfreidoras-web-1 tail -50 /var/www/html/writable/logs/log-$(date +%Y-%m-%d).log 2>/dev/null || docker exec dealsfreidoras-web-1 ls -la /var/www/html/writable/logs/ || true
