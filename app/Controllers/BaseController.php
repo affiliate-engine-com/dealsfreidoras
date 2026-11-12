@@ -6,7 +6,7 @@ use CodeIgniter\Controller;
 
 abstract class BaseController extends Controller
 {
-    protected $helpers = [];
+    protected $helpers = ['amazon'];
 
     public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
     {
