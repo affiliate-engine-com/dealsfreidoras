@@ -6,6 +6,7 @@ class Pages extends BaseController
 {
     public function pillar()
     {
+        helper('amazon');
         try {
             return view('pages/mejor-freidora-de-aire');
         } catch (\Throwable $e) {
