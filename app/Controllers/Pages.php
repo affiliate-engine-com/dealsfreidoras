@@ -15,6 +15,14 @@ class Pages extends BaseController
         ]);
     }
 
+    public function testLayout()
+    {
+        return view('pages/test-layout', [
+            'title' => 'Test Layout',
+            'canonical' => 'https://dealsfreidoras.es/test-layout',
+        ]);
+    }
+
     public function bestOf($slug)
     {
         throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Best-of page not yet created: ' . $slug);
