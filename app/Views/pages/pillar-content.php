@@ -1,3 +1,4 @@
+<?php helper('amazon'); ?>
 <?php
 
 $products = [
