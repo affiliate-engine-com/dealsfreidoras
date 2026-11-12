@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('mejor-freidora-de-aire', 'Pages::bestOf/mejor-freidora-de-aire');
+$routes->get('mejor-freidora-de-aire', 'Pages::pillar');
 $routes->get('best-of/(:segment)', 'Pages::bestOf/$1');
 $routes->get('review/(:segment)', 'Pages::review/$1');
 $routes->get('vs/(:segment)', 'Pages::vs/$1');
