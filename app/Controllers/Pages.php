@@ -8,6 +8,7 @@ class Pages extends BaseController
     {
         helper('amazon');
 
+        // Content view without extend — layout is applied here
         $content = view('pages/pillar-content');
 
         return view('layout', [
@@ -15,14 +16,6 @@ class Pages extends BaseController
             'meta_description' => 'Comparativa de las mejores freidoras de aire en 2026: capacidad, precio orientativo y valoración de 10 modelos Cosori, Cecotec, Philips y Ninja en Amazon.es.',
             'canonical' => 'https://dealsfreidoras.es/mejor-freidora-de-aire',
             'content' => $content,
-        ]);
-    }
-
-    public function testLayout()
-    {
-        return view('pages/test-layout', [
-            'title' => 'Test Layout',
-            'canonical' => 'https://dealsfreidoras.es/test-layout',
         ]);
     }
 
