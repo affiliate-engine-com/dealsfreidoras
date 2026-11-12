@@ -35,6 +35,7 @@
     <?= $this->include('partials/header') ?>
     <main>
         <?= $this->renderSection('content') ?>
+        <?= $content ?? '' ?>
     </main>
     <?= $this->include('partials/footer') ?>
     <?= $this->include('partials/cookie-banner') ?>
