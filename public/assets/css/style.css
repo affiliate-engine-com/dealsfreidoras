@@ -329,3 +329,93 @@ table.scores th {
     align-items: flex-start;
   }
 }
+
+/* ---------- Pillar pages ---------- */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.table-scroll .comparison-table {
+  margin: 0;
+  min-width: 40rem;
+}
+
+.comparison-table caption {
+  caption-side: bottom;
+  text-align: left;
+  padding-top: 0.65rem;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.comparison-table a {
+  font-weight: 600;
+}
+
+.product-layout {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.product-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  min-height: 9.5rem;
+  padding: 0.75rem;
+  border: 1px dashed #C5CDD6;
+  border-radius: var(--radius);
+  background: #F3F6F9;
+  color: var(--badge-blue);
+  text-align: center;
+}
+
+.product-placeholder strong {
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.product-placeholder span {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.product-meta,
+.price-note {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.product .badge {
+  margin-bottom: 0.15rem;
+}
+
+.product ul {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.15rem;
+}
+
+.product li + li {
+  margin-top: 0.3rem;
+}
+
+.product h3 {
+  margin-top: 0.35rem;
+}
+
+@media (max-width: 768px) {
+  .product-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .product-placeholder {
+    min-height: 6.5rem;
+  }
+}
