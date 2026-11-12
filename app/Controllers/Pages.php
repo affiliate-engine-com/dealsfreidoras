@@ -8,10 +8,13 @@ class Pages extends BaseController
     {
         helper('amazon');
 
-        return view('pages/mejor-freidora-de-aire', [
+        $content = view('pages/pillar-content');
+
+        return view('layout', [
             'title' => 'Las 10 mejores freidoras de aire 2026 | Deals a tu rollo',
             'meta_description' => 'Comparativa de las mejores freidoras de aire en 2026: capacidad, precio orientativo y valoración de 10 modelos Cosori, Cecotec, Philips y Ninja en Amazon.es.',
             'canonical' => 'https://dealsfreidoras.es/mejor-freidora-de-aire',
+            'content' => $content,
         ]);
     }
 
