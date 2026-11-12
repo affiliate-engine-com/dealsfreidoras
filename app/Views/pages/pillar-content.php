@@ -1,4 +1,12 @@
-<?php helper('amazon'); ?>
+<?php
+if (!function_exists('amazon_link')) {
+    function amazon_link(string $asin, ?string $tag = null): string
+    {
+        $tag = $tag ?? 'dealsatr-21';
+        return 'https://www.amazon.es/dp/' . rawurlencode($asin) . '?tag=' . rawurlencode($tag);
+    }
+}
+?>
 <?php
 
 $products = [
