@@ -6,48 +6,30 @@ class Pages extends BaseController
 {
     public function pillar()
     {
-        return view('pages/mejor-freidora-de-aire');
+        try {
+            return view('pages/mejor-freidora-de-aire');
+        } catch (\Throwable $e) {
+            return '<pre>Error: ' . esc($e->getMessage()) . "\n" . esc($e->getTraceAsString()) . '</pre>';
+        }
     }
 
     public function bestOf($slug)
     {
-        $view = 'pages/best-of/' . $slug;
-        if (!view_exists($view)) {
-            $view = 'pages/best-of'; // fallback if exists, or handle 404
-            // For now, try specific or show a simple message
-            if (!view_exists($view)) {
-                throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-            }
-        }
-        return view($view, [
-            'title' => 'Mejores ' . str_replace('-', ' ', $slug) . ' | Deals a tu rollo',
-            'canonical' => 'https://dealsfreidoras.es/best-of/' . $slug
-        ]);
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Best-of page not yet created: ' . $slug);
     }
 
     public function review($slug)
     {
-        $view = 'pages/review/' . $slug;
-        if (!view_exists($view)) {
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-        }
-        return view($view);
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
     }
 
     public function vs($slug)
     {
-        $view = 'pages/vs/' . $slug;
-        if (!view_exists($view)) {
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
-        }
-        return view($view);
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
     }
 
     public function sobreNosotros()
     {
-        return view('pages/sobre-nosotros', [
-            'title' => 'Sobre nosotros | Deals a tu rollo - Freidoras',
-            'canonical' => 'https://dealsfreidoras.es/sobre-nosotros'
-        ]);
+        return '<h1>Sobre nosotros</h1><p>Página en construcción.</p>';
     }
 }
