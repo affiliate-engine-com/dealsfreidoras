@@ -21,7 +21,18 @@ class Pages extends BaseController
 
     public function bestOf($slug)
     {
-        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Best-of page not yet created: ' . $slug);
+        helper('amazon');
+
+        if (! is_string($slug) || ! preg_match('/\A[a-z0-9-]+\z/', $slug)) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+
+        $view = 'pages/best-of/' . $slug;
+        if (! is_file(APPPATH . 'Views/' . $view . '.php')) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Best-of page not yet created: ' . $slug);
+        }
+
+        return view($view);
     }
 
     public function review($slug)

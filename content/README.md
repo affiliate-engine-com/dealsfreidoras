@@ -9,7 +9,7 @@ Este folder contiene los prompts generados para el Bot y el tracking del estado 
 |-----|-------------------|------|--------|--------|-----------|-------|
 | `/` | mejor freidora de aire | Home | — | Desplegada | v1 | Home básica |
 | `/mejor-freidora-de-aire` | mejores freidoras de aire | Best-of | `prompts/mejor-freidora-de-aire.md` | Generada | — | Pillar page |
-| `/best-of/freidora-de-aire-cecotec` | freidora de aire cecotec | Best-of | `prompts/freidora-de-aire-cecotec.md` | Prompt listo | — | |
+| `/best-of/freidora-de-aire-cecotec` | freidora de aire cecotec | Best-of | `prompts/freidora-de-aire-cecotec.md` | Generada | — | 8 modelos, fichas Amazon.es 14 nov 2026 |
 | `/best-of/freidora-de-aire-cosori` | freidora de aire cosori | Best-of | `prompts/freidora-de-aire-cosori.md` | Prompt listo | — | |
 | `/best-of/freidora-de-aire-ninja` | freidora de aire ninja | Best-of | `prompts/freidora-de-aire-ninja.md` | Prompt listo | — | |
 | `/best-of/freidora-de-aire-grande` | freidora de aire grande | Best-of | `prompts/freidora-de-aire-grande.md` | Prompt listo | — | |
