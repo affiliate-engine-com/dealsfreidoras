@@ -27,12 +27,13 @@ class Pages extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
         }
 
-        $view = 'pages/best-of/' . $slug;
-        if (! is_file(APPPATH . 'Views/' . $view . '.php')) {
-            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Best-of page not yet created: ' . $slug);
+        foreach (['pages/best-of/' . $slug, 'pages/' . $slug] as $view) {
+            if (is_file(APPPATH . 'Views/' . $view . '.php')) {
+                return view($view);
+            }
         }
 
-        return view($view);
+        throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound('Best-of page not yet created: ' . $slug);
     }
 
     public function review($slug)
