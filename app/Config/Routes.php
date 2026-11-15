@@ -11,7 +11,7 @@ $routes->get('test-layout', 'Pages::testLayout');
 $routes->get('best-of/(:segment)', 'Pages::bestOf/$1');
 $routes->get('review/(:segment)', 'Pages::review/$1');
 $routes->get('vs/(:segment)', 'Pages::vs/$1');
-$routes->get('sobre-nosotros', 'Pages::sobreNosotros');
+$routes->get('sobre-nosotros', 'Home::sobreNosotros');
 
 // Páginas legales centralizadas en dealsatr.com
 $routes->get('aviso-legal', static function () {
