@@ -6,12 +6,12 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('mejor-freidora-de-aire', 'Pages::pillar');
+$routes->get('mejor-freidora-de-aire', 'Pages::bestOf/mejor-freidora-de-aire');
 $routes->get('test-layout', 'Pages::testLayout');
 $routes->get('best-of/(:segment)', 'Pages::bestOf/$1');
 $routes->get('review/(:segment)', 'Pages::review/$1');
 $routes->get('vs/(:segment)', 'Pages::vs/$1');
-$routes->get('sobre-nosotros', 'Pages::sobreNosotros');
+$routes->get('sobre-nosotros', 'Home::sobreNosotros');
 
 // Páginas legales centralizadas en dealsatr.com
 $routes->get('aviso-legal', static function () {

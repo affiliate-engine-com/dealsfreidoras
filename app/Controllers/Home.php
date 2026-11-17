@@ -12,4 +12,13 @@ class Home extends BaseController
             'canonical' => 'https://dealsfreidoras.es/'
         ]);
     }
+
+    public function sobreNosotros()
+    {
+        return view('layout', [
+            'title' => 'Sobre nosotros | Deals a tu rollo - Freidoras',
+            'canonical' => 'https://dealsfreidoras.es/sobre-nosotros',
+            'content' => '<h1>Sobre nosotros</h1><p>Página en construcción.</p>'
+        ]);
+    }
 }

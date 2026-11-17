@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: affiliate-engine-com/ci4-base
-          ref: v1.0.0
+          ref: v1.1.0
           path: base
           token: ${{ secrets.GHCR_PAT }}
 

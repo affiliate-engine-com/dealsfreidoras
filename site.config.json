@@ -3,7 +3,7 @@
   "site_slug": "dealsfreidoras",
   "domain": "dealsfreidoras.es",
   "base_url": "https://dealsfreidoras.es",
-  "base_version": "v1.0.0",
+  "base_version": "v1.1.0",
   "affiliate_tag": "dealsatr-21",
   "locale": "es_ES",
   "currency": "EUR",
