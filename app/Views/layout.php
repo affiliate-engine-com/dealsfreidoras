@@ -30,6 +30,28 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <?= $this->renderSection('head') ?>
+
+    <?php
+    $gtmId = '';
+    $configPath = ROOTPATH . 'site.config.json';
+    if (file_exists($configPath)) {
+        $siteConfig = json_decode(file_get_contents($configPath), true) ?? [];
+        $gtmId = $siteConfig['gtm_id'] ?? '';
+    }
+    ?>
+    <?php if ($gtmId): ?>
+    <script>
+    (function() {
+        if (localStorage.getItem('cookie_consent') === 'accepted') {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','<?= esc($gtmId) ?>');
+        }
+    })();
+    </script>
+    <?php endif; ?>
 </head>
 <body>
     <?= $this->include('partials/header') ?>
