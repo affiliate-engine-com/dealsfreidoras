@@ -7,7 +7,7 @@ Este folder contiene los prompts generados para el Bot y el tracking del estado 
 
 | URL | Keyword principal | Tipo | Prompt | Estado | Versiones | Notas |
 |-----|-------------------|------|--------|--------|-----------|-------|
-| `/` | mejor freidora de aire | Home | — | Desplegada | v1 | Home básica |
+| `/` | mejor freidora de aire | Home | `prompts/home.md` | Generada | v2 | Hero, cards, confianza, FAQ y CTA |
 | `/mejor-freidora-de-aire` | mejores freidoras de aire | Best-of | `prompts/mejor-freidora-de-aire.md` | Generada | — | Pillar page |
 | `/best-of/freidora-de-aire-cecotec` | freidora de aire cecotec | Best-of | `prompts/freidora-de-aire-cecotec.md` | Generada | — | 8 modelos, fichas Amazon.es 14 nov 2026 |
 | `/best-of/freidora-de-aire-cosori` | freidora de aire cosori | Best-of | `prompts/freidora-de-aire-cosori.md` | Generada | — | 7 modelos, fichas Amazon.es 18 nov 2026 |
