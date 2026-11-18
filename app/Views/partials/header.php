@@ -1,7 +1,8 @@
 <header>
     <div class="header-inner">
+        <?php helper('url'); ?>
         <a href="https://dealsatr.com" class="logo">
-            <img src="/assets/img/logo.svg" alt="Deals a tu rollo" height="48">
+            <img src="<?= esc(base_url('assets/img/logo.svg'), 'attr') ?>" alt="Deals a tu rollo" width="260" height="70">
         </a>
         <nav>
             <a href="/">Inicio</a>
