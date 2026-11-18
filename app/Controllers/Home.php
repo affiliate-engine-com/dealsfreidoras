@@ -11,10 +11,6 @@ class Home extends BaseController
 
     public function sobreNosotros()
     {
-        return view('layout', [
-            'title' => 'Sobre nosotros | Deals a tu rollo - Freidoras',
-            'canonical' => 'https://dealsfreidoras.es/sobre-nosotros',
-            'content' => '<h1>Sobre nosotros</h1><p>Página en construcción.</p>'
-        ]);
+        return view('sobre-nosotros');
     }
 }
