@@ -6,6 +6,8 @@
     <title><?= esc($title ?? 'Deals a tu rollo | Freidoras de aire') ?></title>
     <meta name="description" content="<?= esc($meta_description ?? 'Reviews y comparativas de freidoras de aire. Deals a tu rollo.') ?>">
     <link rel="canonical" href="<?= esc($canonical ?? 'https://dealsfreidoras.es' . ($_SERVER['REQUEST_URI'] ?? '/')) ?>">
+    <?php helper('site'); ?>
+    <?= seo_verification_meta() ?>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">

@@ -3,10 +3,24 @@
   "site_slug": "dealsfreidoras",
   "domain": "dealsfreidoras.es",
   "base_url": "https://dealsfreidoras.es",
-  "base_version": "v1.1.0",
+  "base_version": "v1.2.0",
   "affiliate_tag": "dealsatr-21",
   "locale": "es_ES",
   "currency": "EUR",
   "description": "Reviews y comparativas de freidoras de aire. Deals a tu rollo.",
-  "gtm_id": "GTM-N4N6PL6G"
+  "gtm_id": "GTM-N4N6PL6G",
+  "verification": {
+    "google": "googlee76efa255405046f",
+    "bing": "3C828D6415FA3FD494A7907371E2D4ED"
+  },
+  "sitemap_exclude": ["test-layout"],
+  "sitemap": [
+    "/",
+    "/mejor-freidora-de-aire",
+    "/best-of/freidora-de-aire-cecotec",
+    "/best-of/freidora-de-aire-cosori",
+    "/best-of/freidora-de-aire-ninja",
+    "/best-of/freidora-de-aire-grande",
+    {"path": "/sobre-nosotros", "changefreq": "monthly", "priority": "0.5"}
+  ]
 }
