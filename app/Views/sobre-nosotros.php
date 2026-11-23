@@ -1,8 +1,8 @@
 <?= $this->extend('layout') ?>
 
 <?php
-$this->setVar('title', 'Sobre nosotros | Deals a tu rollo');
-$this->setVar('meta_description', 'Comparativas de freidoras de aire de Deals a tu rollo: fichas, especificaciones y opiniones verificadas de Amazon.es, y cómo actualizamos los precios.');
+$this->setVar('title', 'Sobre nosotros | Deals Freidoras');
+$this->setVar('meta_description', 'Comparativas de freidoras de aire de Deals Freidoras: fichas, especificaciones y opiniones verificadas de Amazon.es.');
 $this->setVar('canonical', 'https://dealsfreidoras.es/sobre-nosotros');
 ?>
 
@@ -26,18 +26,18 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/sobre-nosotros');
         <li><strong>Consumo.</strong> La referencia es esa potencia, cuando la ficha la trae. No medimos kilovatios hora. Si no hay otro dato, no lo estimamos.</li>
         <li><strong>Facilidad de limpieza.</strong> Sale de la descripción: cubeta extraíble, piezas para el lavavajillas y recubrimiento. No la comprobamos fregando el cestillo.</li>
         <li><strong>Valoraciones verificadas.</strong> Usamos la nota media y el número de opiniones de compras verificadas, con la fecha de la consulta.</li>
-        <li><strong>Relación calidad-precio.</strong> Cruza capacidad, potencia, funciones y valoración con el importe de ese día. Un precio bajo no adelanta un modelo con pocas opiniones o datos incompletos.</li>
+        <li><strong>Uso.</strong> Cruzamos capacidad, potencia, funciones y valoración. Un modelo con pocas opiniones o datos incompletos no adelanta al resto.</li>
     </ul>
     <p>Si la ficha lo indica, anotamos una segunda zona, una ventana o los programas automáticos. La marca (Cecotec, Cosori, Ninja, Philips u otra) es contexto y no decide sola.</p>
 
-    <h2>Cómo actualizamos los precios</h2>
-    <p>El precio de una tabla es el de Amazon.es el día que indica la página, casi siempre el del producto nuevo. Cambia con las ofertas, el vendedor, los cupones y el stock, y puede no coincidir al poco de publicarlo. El enlace abre la ficha vigente: pagas el precio de Amazon en ese momento, sin recargo. Si no había un importe claro, lo decimos y no inventamos uno.</p>
+    <h2>Precios</h2>
+    <p>No publicamos un precio fijo. El botón «Ver precio en Amazon» abre la ficha vigente: pagas el precio de Amazon en ese momento, sin recargo.</p>
 
     <h2>Transparencia de afiliación</h2>
     <aside class="affiliate-disclosure">
         <p>Participamos en el Programa de Afiliados de Amazon EU. Si compras desde nuestros enlaces, podemos recibir una comisión sin coste extra para ti. El precio es el de Amazon.</p>
     </aside>
-    <p>La comisión no elige los modelos: entran por la ficha y por las opiniones verificadas. El funcionamiento en toda la marca está en la <a href="https://dealsatr.com/afiliados" target="_blank" rel="noopener">divulgación de afiliados</a>.</p>
+    <p>La comisión no elige los modelos: entran por la ficha y por las opiniones verificadas. El detalle está en la <a href="/afiliados">divulgación de afiliados</a>. Quien escribe las guías es <a href="/autor">Pastor T. García</a>.</p>
 
     <h2>Dónde seguir</h2>
     <p>La <a href="/">portada</a> reúne las categorías. <a href="/mejor-freidora-de-aire">Las mejores freidoras de aire</a> cruzan marcas. Por marca o por cubeta amplia, sigue con Cecotec, Cosori, Ninja o las freidoras grandes.</p>

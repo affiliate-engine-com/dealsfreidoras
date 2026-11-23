@@ -1,7 +1,9 @@
 FROM php:8.2-apache
 
 # Enable mod_rewrite
-RUN a2enmod rewrite
+RUN a2enmod rewrite headers deflate \
+    && printf 'expose_php = Off\n' > /usr/local/etc/php/conf.d/expose.ini \
+    && printf '\nServerTokens Prod\nServerSignature Off\n' >> /etc/apache2/apache2.conf
 
 # Install required PHP extensions + composer
 RUN apt-get update && apt-get install -y \

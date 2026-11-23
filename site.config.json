@@ -3,24 +3,24 @@
   "site_slug": "dealsfreidoras",
   "domain": "dealsfreidoras.es",
   "base_url": "https://dealsfreidoras.es",
-  "base_version": "v1.2.0",
+  "base_version": "v1.3.0",
   "affiliate_tag": "dealsatr-21",
   "locale": "es_ES",
   "currency": "EUR",
-  "description": "Reviews y comparativas de freidoras de aire. Deals a tu rollo.",
+  "description": "Comparativas de freidoras de aire. El precio se consulta en Amazon.",
+  "logo": "/assets/img/logo.svg",
+  "contact_email": "hola@dealsatr.com",
+  "owner": {
+    "name": "Pastor T. García",
+    "nif": "74663415X",
+    "address": "Calle Juan Antonio Tercero 8, 7-11, 29014 Málaga",
+    "email": "hola@dealsatr.com",
+    "role": "autónomo"
+  },
   "gtm_id": "GTM-N4N6PL6G",
   "verification": {
     "google": "googlee76efa255405046f",
     "bing": "3C828D6415FA3FD494A7907371E2D4ED"
   },
-  "sitemap_exclude": ["test-layout"],
-  "sitemap": [
-    "/",
-    "/mejor-freidora-de-aire",
-    "/best-of/freidora-de-aire-cecotec",
-    "/best-of/freidora-de-aire-cosori",
-    "/best-of/freidora-de-aire-ninja",
-    "/best-of/freidora-de-aire-grande",
-    {"path": "/sobre-nosotros", "changefreq": "monthly", "priority": "0.5"}
-  ]
+  "sitemap_exclude": ["test-layout"]
 }

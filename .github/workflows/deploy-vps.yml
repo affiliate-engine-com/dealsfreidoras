@@ -19,14 +19,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Clone ci4-base
         uses: actions/checkout@v4
         with:
           repository: affiliate-engine-com/ci4-base
-          ref: v1.2.0
+          ref: v1.3.0
           path: base
           token: ${{ secrets.GHCR_PAT }}
+
+      - name: Clone legal-pages
+        uses: actions/checkout@v4
+        with:
+          repository: affiliate-engine-com/legal-pages
+          ref: v1.0.0
+          path: legal-pages
+          token: ${{ secrets.LEGAL_PAGES_TOKEN || secrets.GHCR_PAT }}
+
+      - name: Build pages
+        run: python3 base/bin/build-pages.py --site . --legal legal-pages
 
       - name: Read config
         id: config
@@ -63,9 +76,14 @@ jobs:
                 image: ghcr.io/affiliate-engine-com/dealsfreidoras:latest
                 labels:
                   - "traefik.enable=true"
-                  - "traefik.http.routers.${{ steps.config.outputs.slug }}.rule=Host(`${{ steps.config.outputs.domain }}`)"
+                  - "traefik.http.routers.${{ steps.config.outputs.slug }}.rule=Host(`${{ steps.config.outputs.domain }}`) || Host(`www.${{ steps.config.outputs.domain }}`)"
                   - "traefik.http.routers.${{ steps.config.outputs.slug }}.entrypoints=websecure"
                   - "traefik.http.routers.${{ steps.config.outputs.slug }}.tls.certresolver=letsencrypt"
+                  - "traefik.http.routers.${{ steps.config.outputs.slug }}-http.rule=Host(`${{ steps.config.outputs.domain }}`) || Host(`www.${{ steps.config.outputs.domain }}`)"
+                  - "traefik.http.routers.${{ steps.config.outputs.slug }}-http.entrypoints=web"
+                  - "traefik.http.routers.${{ steps.config.outputs.slug }}-http.middlewares=${{ steps.config.outputs.slug }}-https"
+                  - "traefik.http.middlewares.${{ steps.config.outputs.slug }}-https.redirectscheme.scheme=https"
+                  - "traefik.http.middlewares.${{ steps.config.outputs.slug }}-https.redirectscheme.permanent=true"
                   - "traefik.http.services.${{ steps.config.outputs.slug }}.loadbalancer.server.port=80"
                 restart: unless-stopped
             EOF

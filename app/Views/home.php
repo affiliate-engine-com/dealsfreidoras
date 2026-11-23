@@ -1,15 +1,15 @@
 <?= $this->extend('layout') ?>
 
 <?php
-$this->setVar('title', 'Deals a tu rollo | Mejor freidora de aire 2026');
-$this->setVar('meta_description', 'Comparativas y reviews actualizadas de las mejores freidoras de aire. Encuentra la freidora de aire ideal para ti en Deals a tu rollo.');
+$this->setVar('title', 'Deals Freidoras | Mejor freidora de aire 2026');
+$this->setVar('meta_description', 'Comparativas y reviews actualizadas de las mejores freidoras de aire. Encuentra la freidora de aire ideal para ti en Deals Freidoras.');
 $this->setVar('canonical', 'https://dealsfreidoras.es/');
 ?>
 
 <?= $this->section('content') ?>
 
 <section class="hero">
-    <h1>Deals a tu rollo – Freidoras de aire</h1>
+    <h1>Deals Freidoras</h1>
     <p>Comparativas y guías de compra para elegir freidora de aire sin perderte entre marcas y capacidades. Reunimos litros, uso y opiniones de Amazon.es, y te dejamos el enlace a la ficha.</p>
     <p><a href="/mejor-freidora-de-aire" class="btn">Ver las mejores freidoras</a></p>
 </section>
@@ -38,7 +38,7 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/');
 </section>
 
 <section>
-    <h2>Por qué confiar en Deals a tu rollo</h2>
+    <h2>Por qué confiar en Deals Freidoras</h2>
     <ul class="trust-points">
         <li>
             <h3>Opiniones reales</h3>
@@ -50,7 +50,7 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/');
         </li>
         <li>
             <h3>Parte de dealsatr.com</h3>
-            <p>Este sitio es de la marca Deals a tu rollo. Si compras desde un enlace, Amazon puede dejarnos una comisión, sin coste extra para ti.</p>
+            <p>Deals Freidoras publica las comparativas. Si compras desde un enlace, Amazon puede dejarnos una comisión, sin coste extra para ti.</p>
         </li>
     </ul>
 </section>
@@ -64,8 +64,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/');
     <h3>¿Cecotec, Cosori o Ninja?</h3>
     <p>Cecotec suele ser la opción de menos gasto. Cosori acumula muchas reseñas en Amazon.es. Ninja interesa si quieres dos zonas. La guía de las mejores freidoras las pone juntas.</p>
 
-    <h3>¿Los precios de esta página son los de Amazon?</h3>
-    <p>En la home no publicamos precios. En las comparativas figura el que vimos en la ficha, y el botón abre Amazon.es para ver el importe de ese momento.</p>
+    <h3>¿Dónde está el precio?</h3>
+    <p>No publicamos precios. El botón «Ver precio en Amazon» abre la ficha y el importe es el de Amazon en ese momento.</p>
 
     <h3>¿Comprar desde aquí me sale más caro?</h3>
     <p>No. El enlace es de afiliado: pagas el precio de Amazon. Si la compra se completa, podemos recibir una comisión.</p>
