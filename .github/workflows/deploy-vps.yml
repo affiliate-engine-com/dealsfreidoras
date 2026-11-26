@@ -38,6 +38,9 @@ jobs:
           path: legal-pages
           token: ${{ secrets.LEGAL_PAGES_TOKEN || secrets.GHCR_PAT }}
 
+      - name: Build product figures
+        run: python3 bin/product-figures.py --site .
+
       - name: Build pages
         run: python3 base/bin/build-pages.py --site . --legal legal-pages
 
