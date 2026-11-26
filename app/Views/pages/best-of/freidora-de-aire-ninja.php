@@ -48,42 +48,49 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/best-of/freidora-de-aire-n
     <h2>Modelos</h2>
     <article class="product" id="{{product:B0CFL49C1J.anchor}}">
         <h3>1. {{product:B0CFL49C1J.full_name}}</h3>
+        {{product:B0CFL49C1J.figure}}
         <p>{{product:B0CFL49C1J.lead}}</p>
         {{product:B0CFL49C1J.pros}}
         {{product:B0CFL49C1J.cta}}
     </article>
     <article class="product" id="{{product:B09ZYLM43B.anchor}}">
         <h3>2. {{product:B09ZYLM43B.full_name}}</h3>
+        {{product:B09ZYLM43B.figure}}
         <p>{{product:B09ZYLM43B.lead}}</p>
         {{product:B09ZYLM43B.pros}}
         {{product:B09ZYLM43B.cta}}
     </article>
     <article class="product" id="{{product:B0CZY23DYB.anchor}}">
         <h3>3. {{product:B0CZY23DYB.full_name}}</h3>
+        {{product:B0CZY23DYB.figure}}
         <p>{{product:B0CZY23DYB.lead}}</p>
         {{product:B0CZY23DYB.pros}}
         {{product:B0CZY23DYB.cta}}
     </article>
     <article class="product" id="{{product:B0F4KHWH9M.anchor}}">
         <h3>4. {{product:B0F4KHWH9M.full_name}}</h3>
+        {{product:B0F4KHWH9M.figure}}
         <p>{{product:B0F4KHWH9M.lead}}</p>
         {{product:B0F4KHWH9M.pros}}
         {{product:B0F4KHWH9M.cta}}
     </article>
     <article class="product" id="{{product:B08GC1QZ5W.anchor}}">
         <h3>5. {{product:B08GC1QZ5W.full_name}}</h3>
+        {{product:B08GC1QZ5W.figure}}
         <p>{{product:B08GC1QZ5W.lead}}</p>
         {{product:B08GC1QZ5W.pros}}
         {{product:B08GC1QZ5W.cta}}
     </article>
     <article class="product" id="{{product:B07VWRDQKD.anchor}}">
         <h3>6. {{product:B07VWRDQKD.full_name}}</h3>
+        {{product:B07VWRDQKD.figure}}
         <p>{{product:B07VWRDQKD.lead}}</p>
         {{product:B07VWRDQKD.pros}}
         {{product:B07VWRDQKD.cta}}
     </article>
     <article class="product" id="{{product:B0F99K7DS9.anchor}}">
         <h3>7. {{product:B0F99K7DS9.full_name}}</h3>
+        {{product:B0F99K7DS9.figure}}
         <p>{{product:B0F99K7DS9.lead}}</p>
         {{product:B0F99K7DS9.pros}}
         {{product:B0F99K7DS9.cta}}

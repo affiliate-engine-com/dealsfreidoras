@@ -48,48 +48,56 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/best-of/freidora-de-aire-g
     <h2>Modelos</h2>
     <article class="product" id="{{product:B0GC69WYZ3.anchor}}">
         <h3>1. {{product:B0GC69WYZ3.full_name}}</h3>
+        {{product:B0GC69WYZ3.figure}}
         <p>{{product:B0GC69WYZ3.lead}}</p>
         {{product:B0GC69WYZ3.pros}}
         {{product:B0GC69WYZ3.cta}}
     </article>
     <article class="product" id="{{product:B0BPZSVH6S.anchor}}">
         <h3>2. {{product:B0BPZSVH6S.full_name}}</h3>
+        {{product:B0BPZSVH6S.figure}}
         <p>{{product:B0BPZSVH6S.lead}}</p>
         {{product:B0BPZSVH6S.pros}}
         {{product:B0BPZSVH6S.cta}}
     </article>
     <article class="product" id="{{product:B0G7HM9TXK.anchor}}">
         <h3>3. {{product:B0G7HM9TXK.full_name}}</h3>
+        {{product:B0G7HM9TXK.figure}}
         <p>{{product:B0G7HM9TXK.lead}}</p>
         {{product:B0G7HM9TXK.pros}}
         {{product:B0G7HM9TXK.cta}}
     </article>
     <article class="product" id="{{product:B0BPYX2TGJ.anchor}}">
         <h3>4. {{product:B0BPYX2TGJ.full_name}}</h3>
+        {{product:B0BPYX2TGJ.figure}}
         <p>{{product:B0BPYX2TGJ.lead}}</p>
         {{product:B0BPYX2TGJ.pros}}
         {{product:B0BPYX2TGJ.cta}}
     </article>
     <article class="product" id="{{product:B0CWP7M17B.anchor}}">
         <h3>5. {{product:B0CWP7M17B.full_name}}</h3>
+        {{product:B0CWP7M17B.figure}}
         <p>{{product:B0CWP7M17B.lead}}</p>
         {{product:B0CWP7M17B.pros}}
         {{product:B0CWP7M17B.cta}}
     </article>
     <article class="product" id="{{product:B0BPZPP3GK.anchor}}">
         <h3>6. {{product:B0BPZPP3GK.full_name}}</h3>
+        {{product:B0BPZPP3GK.figure}}
         <p>{{product:B0BPZPP3GK.lead}}</p>
         {{product:B0BPZPP3GK.pros}}
         {{product:B0BPZPP3GK.cta}}
     </article>
     <article class="product" id="{{product:B0F6Y4SQX6.anchor}}">
         <h3>7. {{product:B0F6Y4SQX6.full_name}}</h3>
+        {{product:B0F6Y4SQX6.figure}}
         <p>{{product:B0F6Y4SQX6.lead}}</p>
         {{product:B0F6Y4SQX6.pros}}
         {{product:B0F6Y4SQX6.cta}}
     </article>
     <article class="product" id="{{product:B0F6YV2C32.anchor}}">
         <h3>8. {{product:B0F6YV2C32.full_name}}</h3>
+        {{product:B0F6YV2C32.figure}}
         <p>{{product:B0F6YV2C32.lead}}</p>
         {{product:B0F6YV2C32.pros}}
         {{product:B0F6YV2C32.cta}}

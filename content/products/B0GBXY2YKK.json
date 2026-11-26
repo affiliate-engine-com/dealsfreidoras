@@ -5,7 +5,7 @@
   "brand": "Cosori",
   "anchor": "cosori-twinfry-compact-86l",
   "short": "Cosori Dual Blaze TwinFry Compact 8,6 L (CAF-TF801-AEU): consulta la ficha en Amazon para el precio de hoy.",
-  "lead": "La TwinFry Compact gris, modelo CAF-TF801-AEU, parte una cubeta de 8,6 litros en una o dos zonas, con SYNC y MATCH. El producto nuevo, vendido por Amazon,. La potencia no cuadra en la misma ficha: el título dice 2700 W, la potencia de salida figura en 2800 W y el campo de potencia en 2200 W. Amazon muestra 4,8 sobre 5 y 2.014 reseñas, la misma media que la TwinFry de 10 litros, porque las agrupa en la misma familia de variantes. El puesto 12 de freidoras de aire también es el de esa familia.",
+  "lead": "La TwinFry Compact negra, modelo CAF-TF801-AEU, parte una cubeta de 8,6 litros en una o dos zonas, con SYNC y MATCH. El producto nuevo, vendido por Amazon,. La potencia no cuadra en la misma ficha: el título dice 2700 W, la potencia de salida figura en 2800 W y el campo de potencia en 2200 W. Amazon muestra 4,8 sobre 5 y 2.014 reseñas, la misma media que la TwinFry de 10 litros, porque las agrupa en la misma familia de variantes. El puesto 12 de freidoras de aire también es el de esa familia.",
   "specs": {
     "capacity": "8,6 L",
     "power_w": "2700 W en el título",
@@ -19,6 +19,15 @@
     "Tecnología Dual Blaze con calor por ambos lados"
   ],
   "cons": [],
-  "image": "",
-  "last_checked": "2026-11-19"
+  "image": "/img/products/B0GBXY2YKK.webp",
+  "last_checked": "2026-11-19",
+  "image_alt": "Freidora de aire Cosori Dual Blaze TwinFry Compact 8,6 L (CAF-TF801-AEU), foto de producto oficial de Cosori",
+  "image_width": 1000,
+  "image_height": 1000,
+  "image_credit": {
+    "name": "Cosori",
+    "url": "https://cosori.es/products/cosori-air-fryer-dual-blaze-twinfry-compacto-8-6-litros"
+  },
+  "color": "negro",
+  "notes": "Color corregido a negro según la ficha oficial de cosori.es (packshot TFC_Black)."
 }
