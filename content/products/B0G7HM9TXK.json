@@ -5,20 +5,29 @@
   "brand": "Cecotec",
   "anchor": "cecotec-window-6500-total-65l",
   "short": "Cecotec Cecofry Fantastik Window 6500 Total 6,5 L: consulta la ficha en Amazon para el precio de hoy.",
-  "lead": "La Fantastik Window 6500 Total sube a 6,5 litros y 1700 W, con una ventana que se enciende durante la cocción. El producto nuevo lo vendía Amazon. La nota es 4,5 sobre 5, con 114 reseñas: es la ficha con menos opiniones de estas ocho y conviene leerlas antes de fiarse de la media. El título de la página habla de 12 menús; el bloque de características detalla 9 modos, de 80 a 200 °C.",
+  "lead": "La Fantastik Window 6500 Total sube a 6,5 litros y 1700 W, con una ventana que se enciende durante la cocción. El producto nuevo lo vendía Amazon. La nota es 4,5 sobre 5, con 114 reseñas: es la ficha con menos opiniones de estas ocho y conviene leerlas antes de fiarse de la media. Tiene 12 menús preconfigurados, de 80 a 200 °C.",
   "specs": {
     "capacity": "6,5 L",
     "power_w": "1700 W",
     "baskets": "1",
-    "programs": "9 modos"
+    "programs": "12 menús"
   },
   "pros": [
     "Ventana de visualización en una cubeta de 6,5 litros",
     "1700 W y tecnología PerfectCook",
-    "9 modos en la descripción de la ficha, de 80 a 200 °C",
+    "12 menús preconfigurados, de 80 a 200 °C",
     "Temporizador hasta 60 minutos y panel táctil"
   ],
   "cons": [],
-  "image": "",
-  "last_checked": "2026-11-19"
+  "image": "/img/products/B0G7HM9TXK.webp",
+  "last_checked": "2026-11-19",
+  "image_alt": "Freidora de aire Cecotec Cecofry Fantastik Window 6500 de 6,5 L con ventana, foto oficial de Cecotec",
+  "image_width": 1000,
+  "image_height": 1000,
+  "image_credit": {
+    "name": "Cecotec",
+    "url": "https://cecotec.es/es/freidoras-sin-aceite/cecofry-fantastik-window-6500-a90-eu01-004967"
+  },
+  "image_note": "Foto de la Window 6500, el modelo oficial más parecido.",
+  "notes": "Menús corregidos a 12 según la ficha oficial de la Cecofry Fantastik Window 6500 en cecotec.es (A90-EU01-004967), modelo más parecido: no existe ficha oficial con el nombre «Total»."
 }
