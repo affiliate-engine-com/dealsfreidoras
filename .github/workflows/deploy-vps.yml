@@ -41,6 +41,9 @@ jobs:
       - name: Build pages
         run: python3 base/bin/build-pages.py --site . --legal legal-pages
 
+      - name: Write IndexNow key
+        run: python3 bin/indexnow.py --site . --write-key
+
       - name: Read config
         id: config
         run: |
@@ -91,3 +94,6 @@ jobs:
             docker compose pull
             docker compose up -d
             docker network connect ${{ steps.config.outputs.slug }}_default traefik-traefik-1 || true
+
+      - name: Submit IndexNow
+        run: python3 bin/indexnow.py --site . --before "${{ github.event.before }}" --after "${{ github.sha }}"

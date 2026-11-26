@@ -5,6 +5,7 @@
   "base_url": "https://dealsfreidoras.es",
   "base_version": "v1.3.0",
   "affiliate_tag": "dealsatr-21",
+  "indexnow_key": "25f358611830f8888e6c277cc49fdbc2ce9e41ba7ec1cea3aa2efb201c9ce7d5",
   "locale": "es_ES",
   "currency": "EUR",
   "description": "Comparativas de freidoras de aire. El precio se consulta en Amazon.",
