@@ -5,7 +5,7 @@
   "brand": "Cecotec",
   "anchor": "cecotec-supreme-8000-8l",
   "short": "Cecotec Cecofry Supreme 8000 8 L: consulta la ficha en Amazon para el precio de hoy.",
-  "lead": "Ocho litros es mucha cubeta para el vendido por Amazon. La Supreme 8000 va en acero inoxidable oscurecido, con 1800 W, 10 menús, precalentamiento, aviso para voltear y deshidratado entre 30 y 200 °C. La nota es 4,5 sobre 5 con 2.018 reseñas.",
+  "lead": "Ocho litros es mucha cubeta para el vendido por Amazon. La Supreme 8000 va en acero inoxidable plateado, con 1800 W, 10 menús, precalentamiento, aviso para voltear y deshidratado entre 30 y 200 °C. La nota es 4,5 sobre 5 con 2.018 reseñas.",
   "specs": {
     "capacity": "8 L",
     "power_w": "1800 W",
@@ -13,12 +13,21 @@
     "programs": "10 menús"
   },
   "pros": [
-    "8 litros con acabado en acero inoxidable oscurecido",
+    "8 litros con acabado en acero inoxidable plateado",
     "10 menús, precalentamiento y aviso para voltear",
     "Función deshidratar, de 30 a 200 °C",
     "Panel táctil y 1800 W"
   ],
   "cons": [],
-  "image": "",
-  "last_checked": "2026-11-19"
+  "image": "/img/products/B0BPYX2TGJ.webp",
+  "last_checked": "2026-11-19",
+  "image_alt": "Freidora de aire Cecotec Cecofry Supreme 8000 8 L, foto de producto oficial de Cecotec",
+  "image_width": 1000,
+  "image_height": 1000,
+  "image_credit": {
+    "name": "Cecotec",
+    "url": "https://cecotec.es/es/freidoras-sin-aceite/cecofry-supreme-8000"
+  },
+  "color": "inox plata",
+  "notes": "Color corregido a inox plata según el packshot oficial de cecotec.es (cecofry-supreme-8000)."
 }

@@ -49,60 +49,70 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire');
     <h2>Modelos</h2>
     <article class="product" id="{{product:B0GC69WYZ3.anchor}}">
         <h3>1. {{product:B0GC69WYZ3.full_name}}</h3>
+        {{product:B0GC69WYZ3.figure}}
         <p>{{product:B0GC69WYZ3.lead}}</p>
         {{product:B0GC69WYZ3.pros}}
         {{product:B0GC69WYZ3.cta}}
     </article>
     <article class="product" id="{{product:B07N8N6C85.anchor}}">
         <h3>2. {{product:B07N8N6C85.full_name}}</h3>
+        {{product:B07N8N6C85.figure}}
         <p>{{product:B07N8N6C85.lead}}</p>
         {{product:B07N8N6C85.pros}}
         {{product:B07N8N6C85.cta}}
     </article>
     <article class="product" id="{{product:B0CWP7M17B.anchor}}">
         <h3>3. {{product:B0CWP7M17B.full_name}}</h3>
+        {{product:B0CWP7M17B.figure}}
         <p>{{product:B0CWP7M17B.lead}}</p>
         {{product:B0CWP7M17B.pros}}
         {{product:B0CWP7M17B.cta}}
     </article>
     <article class="product" id="{{product:B0BPZSVH6S.anchor}}">
         <h3>4. {{product:B0BPZSVH6S.full_name}}</h3>
+        {{product:B0BPZSVH6S.figure}}
         <p>{{product:B0BPZSVH6S.lead}}</p>
         {{product:B0BPZSVH6S.pros}}
         {{product:B0BPZSVH6S.cta}}
     </article>
     <article class="product" id="{{product:B0BQ1DJ65N.anchor}}">
         <h3>5. {{product:B0BQ1DJ65N.full_name}}</h3>
+        {{product:B0BQ1DJ65N.figure}}
         <p>{{product:B0BQ1DJ65N.lead}}</p>
         {{product:B0BQ1DJ65N.pros}}
         {{product:B0BQ1DJ65N.cta}}
     </article>
     <article class="product" id="{{product:B0BPYX2TGJ.anchor}}">
         <h3>6. {{product:B0BPYX2TGJ.full_name}}</h3>
+        {{product:B0BPYX2TGJ.figure}}
         <p>{{product:B0BPYX2TGJ.lead}}</p>
         {{product:B0BPYX2TGJ.pros}}
         {{product:B0BPYX2TGJ.cta}}
     </article>
     <article class="product" id="{{product:B0BPZPP3GK.anchor}}">
         <h3>7. {{product:B0BPZPP3GK.full_name}}</h3>
+        {{product:B0BPZPP3GK.figure}}
         <p>{{product:B0BPZPP3GK.lead}}</p>
         {{product:B0BPZPP3GK.pros}}
         {{product:B0BPZPP3GK.cta}}
     </article>
     <article class="product" id="{{product:B0CFL49C1J.anchor}}">
         <h3>8. {{product:B0CFL49C1J.full_name}}</h3>
+        {{product:B0CFL49C1J.figure}}
         <p>{{product:B0CFL49C1J.lead}}</p>
         {{product:B0CFL49C1J.pros}}
         {{product:B0CFL49C1J.cta}}
     </article>
     <article class="product" id="{{product:B0F6YV2C32.anchor}}">
         <h3>9. {{product:B0F6YV2C32.full_name}}</h3>
+        {{product:B0F6YV2C32.figure}}
         <p>{{product:B0F6YV2C32.lead}}</p>
         {{product:B0F6YV2C32.pros}}
         {{product:B0F6YV2C32.cta}}
     </article>
     <article class="product" id="{{product:B0BFB36BDJ.anchor}}">
         <h3>10. {{product:B0BFB36BDJ.full_name}}</h3>
+        {{product:B0BFB36BDJ.figure}}
         <p>{{product:B0BFB36BDJ.lead}}</p>
         {{product:B0BFB36BDJ.pros}}
         {{product:B0BFB36BDJ.cta}}
