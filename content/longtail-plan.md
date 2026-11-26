@@ -32,8 +32,8 @@ Estados: `pendiente` o `publicada`. Añade filas al final. No borres las publica
 - [x] deploy OK
 - [x] verificada en vivo
 - [x] IndexNow (Bing) enviado
-- [ ] indexación solicitada en Google Search Console
-- [ ] correo enviado
+- [x] indexación solicitada en Google Search Console (2026-11-26)
+- [x] correo enviado (2026-11-26)
 
 ### 2026-11-30 — /mejor-freidora-de-aire-4-litros
 
