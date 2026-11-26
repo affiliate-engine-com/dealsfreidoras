@@ -29,9 +29,9 @@ Estados: `pendiente` o `publicada`. Añade filas al final. No borres las publica
 
 - [x] generada
 - [x] merge a main
-- [ ] deploy OK
-- [ ] verificada en vivo
-- [ ] IndexNow (Bing) enviado
+- [x] deploy OK
+- [x] verificada en vivo
+- [x] IndexNow (Bing) enviado
 - [ ] indexación solicitada en Google Search Console
 - [ ] correo enviado
 
