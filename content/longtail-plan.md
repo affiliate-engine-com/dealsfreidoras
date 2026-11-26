@@ -10,7 +10,7 @@ IndexNow (Bing) lo envía el deploy, no a mano. El script `bin/indexnow.py` publ
 
 | Semana planificada | Slug / URL | Keyword objetivo | Intención | Estado | Fecha publicación | Commit |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026-11-23 | [/mejor-freidora-de-aire-barata](https://dealsfreidoras.es/mejor-freidora-de-aire-barata) | mejor freidora de aire barata | compra | publicada | 2026-11-25 | `COMMIT_SHA` |
+| 2026-11-23 | [/mejor-freidora-de-aire-barata](https://dealsfreidoras.es/mejor-freidora-de-aire-barata) | mejor freidora de aire barata | compra | publicada | 2026-11-25 | `f23c3b97828d262592c28b7c525554352dd45a74` |
 | 2026-11-30 | `/mejor-freidora-de-aire-4-litros` | mejor freidora de aire 4 litros | compra | pendiente | | |
 | 2026-12-07 | `/mejor-freidora-de-aire-dos-cestas` | mejor freidora de aire dos cestas | compra | pendiente | | |
 | 2026-12-14 | `/vs/cosori-vs-cecotec` | Cosori vs Cecotec | comparación | pendiente | | |
