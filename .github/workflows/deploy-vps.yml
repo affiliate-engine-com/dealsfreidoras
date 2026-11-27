@@ -44,6 +44,9 @@ jobs:
       - name: Build pages
         run: python3 base/bin/build-pages.py --site . --legal legal-pages
 
+      - name: Inject comparison table thumbnails
+        run: python3 bin/product-figures.py --site . --inject-table-thumbs
+
       - name: Write IndexNow key
         run: python3 bin/indexnow.py --site . --write-key
 
