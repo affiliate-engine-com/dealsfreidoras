@@ -32,6 +32,11 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
@@ -340,7 +345,7 @@ table.scores th {
 
 .table-scroll .comparison-table {
   margin: 0;
-  min-width: 40rem;
+  min-width: 44rem;
 }
 
 .comparison-table caption {
@@ -411,15 +416,24 @@ table.scores th {
   margin-top: 0.35rem;
 }
 
+.product::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .product-figure {
-  margin: 0.5rem 0 1rem;
-  max-width: 16rem;
+  width: 180px;
+  max-width: 100%;
+  margin: 0.5rem auto 1rem;
 }
 
 .product-figure img {
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
   border-radius: var(--radius);
   background: #fff;
 }
@@ -438,6 +452,37 @@ table.scores th {
 
 .product-figure figcaption a:hover {
   color: var(--link-hover);
+}
+
+.product .cta,
+.product a.cta {
+  clear: both;
+}
+
+@media (min-width: 769px) {
+  .product-figure {
+    float: left;
+    width: 240px;
+    max-width: 40%;
+    margin: 0.15rem 1.25rem 0.85rem 0;
+  }
+}
+
+.comparison-table a.compare-model {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-weight: 600;
+}
+
+.comparison-table .compare-thumb {
+  display: block;
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
