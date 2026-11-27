@@ -423,9 +423,10 @@ table.scores th {
 }
 
 .product-figure {
-  width: 180px;
-  max-width: 100%;
-  margin: 0.5rem auto 1rem;
+  float: left;
+  width: 110px;
+  max-width: 40%;
+  margin: 0.1rem 0.75rem 0.5rem 0;
 }
 
 .product-figure img {
@@ -439,10 +440,10 @@ table.scores th {
 }
 
 .product-figure figcaption {
-  margin-top: 0.35rem;
+  margin-top: 0.2rem;
   color: var(--text-muted);
-  font-size: 0.75rem;
-  line-height: 1.4;
+  font-size: 0.625rem;
+  line-height: 1.3;
 }
 
 .product-figure figcaption a {
@@ -452,6 +453,10 @@ table.scores th {
 
 .product-figure figcaption a:hover {
   color: var(--link-hover);
+}
+
+.product h3 {
+  margin-top: 0;
 }
 
 .product .cta,
@@ -469,12 +474,15 @@ table.scores th {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 640px) {
   .product-figure {
-    float: left;
-    width: 240px;
-    max-width: 40%;
-    margin: 0.15rem 1.25rem 0.85rem 0;
+    width: 160px;
+    max-width: 32%;
+    margin: 0.1rem 1rem 0.65rem 0;
+  }
+
+  .product-figure figcaption {
+    font-size: 0.7rem;
   }
 }
 
