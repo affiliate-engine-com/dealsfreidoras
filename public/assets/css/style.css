@@ -457,6 +457,16 @@ table.scores th {
 .product .cta,
 .product a.cta {
   clear: both;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .product .cta,
+  .product a.cta {
+    width: auto;
+  }
 }
 
 @media (min-width: 769px) {
