@@ -47,57 +47,57 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/best-of/freidora-de-aire-c
     {{compare:B0DGLC3Y3L,B0BQ1DJ65N,B0BPZSVH6S,B0G7HM9TXK,B0BPYX2TGJ,B0BFB3Q7SD,B0BPZPP3GK,B0BFB36BDJ}}
     <h2>Modelos</h2>
     <article class="product" id="{{product:B0DGLC3Y3L.anchor}}">
-        <h3>1. {{product:B0DGLC3Y3L.full_name}}</h3>
         {{product:B0DGLC3Y3L.figure}}
+        <h3>1. {{product:B0DGLC3Y3L.full_name}}</h3>
         <p>{{product:B0DGLC3Y3L.lead}}</p>
         {{product:B0DGLC3Y3L.pros}}
         {{product:B0DGLC3Y3L.cta}}
     </article>
     <article class="product" id="{{product:B0BQ1DJ65N.anchor}}">
-        <h3>2. {{product:B0BQ1DJ65N.full_name}}</h3>
         {{product:B0BQ1DJ65N.figure}}
+        <h3>2. {{product:B0BQ1DJ65N.full_name}}</h3>
         <p>{{product:B0BQ1DJ65N.lead}}</p>
         {{product:B0BQ1DJ65N.pros}}
         {{product:B0BQ1DJ65N.cta}}
     </article>
     <article class="product" id="{{product:B0BPZSVH6S.anchor}}">
-        <h3>3. {{product:B0BPZSVH6S.full_name}}</h3>
         {{product:B0BPZSVH6S.figure}}
+        <h3>3. {{product:B0BPZSVH6S.full_name}}</h3>
         <p>{{product:B0BPZSVH6S.lead}}</p>
         {{product:B0BPZSVH6S.pros}}
         {{product:B0BPZSVH6S.cta}}
     </article>
     <article class="product" id="{{product:B0G7HM9TXK.anchor}}">
-        <h3>4. {{product:B0G7HM9TXK.full_name}}</h3>
         {{product:B0G7HM9TXK.figure}}
+        <h3>4. {{product:B0G7HM9TXK.full_name}}</h3>
         <p>{{product:B0G7HM9TXK.lead}}</p>
         {{product:B0G7HM9TXK.pros}}
         {{product:B0G7HM9TXK.cta}}
     </article>
     <article class="product" id="{{product:B0BPYX2TGJ.anchor}}">
-        <h3>5. {{product:B0BPYX2TGJ.full_name}}</h3>
         {{product:B0BPYX2TGJ.figure}}
+        <h3>5. {{product:B0BPYX2TGJ.full_name}}</h3>
         <p>{{product:B0BPYX2TGJ.lead}}</p>
         {{product:B0BPYX2TGJ.pros}}
         {{product:B0BPYX2TGJ.cta}}
     </article>
     <article class="product" id="{{product:B0BFB3Q7SD.anchor}}">
-        <h3>6. {{product:B0BFB3Q7SD.full_name}}</h3>
         {{product:B0BFB3Q7SD.figure}}
+        <h3>6. {{product:B0BFB3Q7SD.full_name}}</h3>
         <p>{{product:B0BFB3Q7SD.lead}}</p>
         {{product:B0BFB3Q7SD.pros}}
         {{product:B0BFB3Q7SD.cta}}
     </article>
     <article class="product" id="{{product:B0BPZPP3GK.anchor}}">
-        <h3>7. {{product:B0BPZPP3GK.full_name}}</h3>
         {{product:B0BPZPP3GK.figure}}
+        <h3>7. {{product:B0BPZPP3GK.full_name}}</h3>
         <p>{{product:B0BPZPP3GK.lead}}</p>
         {{product:B0BPZPP3GK.pros}}
         {{product:B0BPZPP3GK.cta}}
     </article>
     <article class="product" id="{{product:B0BFB36BDJ.anchor}}">
-        <h3>8. {{product:B0BFB36BDJ.full_name}}</h3>
         {{product:B0BFB36BDJ.figure}}
+        <h3>8. {{product:B0BFB36BDJ.full_name}}</h3>
         <p>{{product:B0BFB36BDJ.lead}}</p>
         {{product:B0BFB36BDJ.pros}}
         {{product:B0BFB36BDJ.cta}}

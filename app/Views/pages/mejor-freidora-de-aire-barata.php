@@ -51,8 +51,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
 
     <h2>Modelos</h2>
     <article class="product" id="{{product:B07N8N6C85.anchor}}">
-        <h3>1. {{product:B07N8N6C85.full_name}}</h3>
         {{product:B07N8N6C85.figure}}
+        <h3>1. {{product:B07N8N6C85.full_name}}</h3>
         <p>Para dos o tres personas, la {{product:B07N8N6C85.name}} es la compra tranquila de esta lista. Declara {{product:B07N8N6C85.specs.capacity}} y {{product:B07N8N6C85.specs.power_w}}, una sola cubeta, interior metálico y un recetario de 40 recetas en la ficha. El 19 de noviembre de 2026 la nota era 4,7 sobre 5 con 67.681 reseñas, y la ficha la situaba en el puesto 4 de freidoras de aire. La cesta figura como apta para lavavajillas. El título habla de 11 modos y una viñeta de 13 programas automáticos: si el número de programas te decide, ábrela y mira el recuento del día.</p>
         <h4>A favor</h4>
         {{product:B07N8N6C85.pros}}
@@ -65,8 +65,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
         {{product:B07N8N6C85.cta}}
     </article>
     <article class="product" id="{{product:B0BPZSVH6S.anchor}}">
-        <h3>2. {{product:B0BPZSVH6S.full_name}}</h3>
         {{product:B0BPZSVH6S.figure}}
+        <h3>2. {{product:B0BPZSVH6S.full_name}}</h3>
         <p>La {{product:B0BPZSVH6S.name}} es la Cecotec de diario en 5,5 litros: {{product:B0BPZSVH6S.specs.capacity}}, {{product:B0BPZSVH6S.specs.power_w}} y {{product:B0BPZSVH6S.specs.programs}}. Lleva panel táctil, PerfectCook y un rango de 80 a 200 °C, con protección contra sobrecalentamiento. En la ficha revisada la nota era 4,6 sobre 5 con 1.055 reseñas, la más alta de las Cecotec de esta página. Baja de vatios respecto a la Full InoxBlack, que en el mismo volumen declara 1700 W.</p>
         <h4>A favor</h4>
         {{product:B0BPZSVH6S.pros}}
@@ -79,8 +79,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
         {{product:B0BPZSVH6S.cta}}
     </article>
     <article class="product" id="{{product:B0BQ1DJ65N.anchor}}">
-        <h3>3. {{product:B0BQ1DJ65N.full_name}}</h3>
         {{product:B0BQ1DJ65N.figure}}
+        <h3>3. {{product:B0BQ1DJ65N.full_name}}</h3>
         <p>La {{product:B0BQ1DJ65N.name}} es la compacta con más opiniones. Declara {{product:B0BQ1DJ65N.specs.capacity}}, {{product:B0BQ1DJ65N.specs.power_w}} y {{product:B0BQ1DJ65N.specs.programs}}, con PerfectCook de 80 a 200 °C y temporizador de hasta 60 minutos. La ventana se ilumina al cocinar, así se ve el punto sin abrir el cajón. La ficha la marcaba como Amazon's Choice, con 4,4 sobre 5 y 1.881 reseñas. Encaja para una o dos personas. Para tres, o para una bandeja familiar de patatas, se queda pequeña.</p>
         <h4>A favor</h4>
         {{product:B0BQ1DJ65N.pros}}
@@ -92,8 +92,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
         {{product:B0BQ1DJ65N.cta}}
     </article>
     <article class="product" id="{{product:B0DGLC3Y3L.anchor}}">
-        <h3>4. {{product:B0DGLC3Y3L.full_name}}</h3>
         {{product:B0DGLC3Y3L.figure}}
+        <h3>4. {{product:B0DGLC3Y3L.full_name}}</h3>
         <p>La {{product:B0DGLC3Y3L.name}} mete más funciones en los mismos {{product:B0DGLC3Y3L.specs.capacity}}: {{product:B0DGLC3Y3L.specs.power_w}}, doble resistencia, plancha, ventana y una pared divisoria móvil. La ficha describe la cubeta como una o dos zonas, y la temperatura de 40 a 200 °C. El 14 de noviembre de 2026 su ficha la situaba como número 1 en freidoras de aire, con 4,3 sobre 5 y 500 reseñas: es la muestra más corta de las Cecotec de 4 litros de esta página. El divisor parte una cubeta que ya es pequeña.</p>
         <h4>A favor</h4>
         {{product:B0DGLC3Y3L.pros}}
@@ -106,8 +106,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
         {{product:B0DGLC3Y3L.cta}}
     </article>
     <article class="product" id="{{product:B0BFB3Q7SD.anchor}}">
-        <h3>5. {{product:B0BFB3Q7SD.full_name}}</h3>
         {{product:B0BFB3Q7SD.figure}}
+        <h3>5. {{product:B0BFB3Q7SD.full_name}}</h3>
         <p>La {{product:B0BFB3Q7SD.name}} es la de 5,5 litros con acabado en acero y más vatios que la Fantastik. Declara {{product:B0BFB3Q7SD.specs.capacity}}, {{product:B0BFB3Q7SD.specs.power_w}} y {{product:B0BFB3Q7SD.specs.programs}}, con PerfectCook de 80 a 200 °C y temporizador de hasta 60 minutos. En la ficha revisada tenía 4,5 sobre 5 y 5.404 reseñas. Es otro ASIN distinto de la Full Inox 5500 Pro con pack de accesorios: esta ficha es la versión sin ese pack. Esta ficha no describe ventana.</p>
         <h4>A favor</h4>
         {{product:B0BFB3Q7SD.pros}}
@@ -120,8 +120,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
         {{product:B0BFB3Q7SD.cta}}
     </article>
     <article class="product" id="{{product:B0BPYX2TGJ.anchor}}">
-        <h3>6. {{product:B0BPYX2TGJ.full_name}}</h3>
         {{product:B0BPYX2TGJ.figure}}
+        <h3>6. {{product:B0BPYX2TGJ.full_name}}</h3>
         <p>La {{product:B0BPYX2TGJ.name}} entra cuando la casa come junta y una cubeta de 5,5 litros se queda corta, sin pasar a una Ninja de dos zonas. Declara {{product:B0BPYX2TGJ.specs.capacity}}, {{product:B0BPYX2TGJ.specs.power_w}} y {{product:B0BPYX2TGJ.specs.programs}}, en acero inoxidable plateado, con precalentamiento, aviso para voltear y deshidratado entre 30 y 200 °C. La nota de la ficha era 4,5 sobre 5 con 2.018 reseñas. Ocho litros ocupan encimera y no hacen falta si cocináis para dos.</p>
         <h4>A favor</h4>
         {{product:B0BPYX2TGJ.pros}}
@@ -134,8 +134,8 @@ $this->setVar('canonical', 'https://dealsfreidoras.es/mejor-freidora-de-aire-bar
         {{product:B0BPYX2TGJ.cta}}
     </article>
     <article class="product" id="{{product:B0DJH83G29.anchor}}">
-        <h3>7. {{product:B0DJH83G29.full_name}}</h3>
         {{product:B0DJH83G29.figure}}
+        <h3>7. {{product:B0DJH83G29.full_name}}</h3>
         <p>La {{product:B0DJH83G29.name}} es la Cosori de una ración, no una freidora familiar pequeña. El título de la ficha la llama freidora de {{product:B0DJH83G29.specs.capacity}} y {{product:B0DJH83G29.specs.power_w}}; el número de modelo es CAF-LI211. Tiene {{product:B0DJH83G29.specs.programs}}, recubrimiento cerámico sin PFAS y temperatura hasta 205 °C. El 19 de noviembre de 2026 la nota era 4,5 sobre 5 con 427 reseñas, y la ficha la situaba en el puesto 46 de freidoras de aire. Tiene sentido si cocinas para una persona y el hueco manda. Para dos, la CP158-AF o una Cecotec de 4 litros trabajan con menos apretura.</p>
         <h4>A favor</h4>
         {{product:B0DJH83G29.pros}}

@@ -27,7 +27,7 @@
     <?= seo_icon_links() ?>
     <meta name="theme-color" content="#0D6EFD">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=20261127-110">
 
     <?= $this->renderSection('head') ?>
 
